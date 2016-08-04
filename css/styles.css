@@ -1,0 +1,195 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	box-sizing: border-box;
+	
+}
+body {
+	background: #fafafa;
+	color: rgba(0, 0, 0, 0.7);
+	font-family: 'Varela Round', sans-serif;
+}
+.foot-nav {
+	display: none;
+}
+/* Layout Styles */
+.banner,
+.container {
+	
+}
+p {
+	padding: 0 10px;
+	color: rgba(0, 0, 0, 0.6);
+}
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+li {
+	text-align: center;
+}
+header {
+	width: 100%;
+}
+.row {
+	padding: 20px 0;
+}
+.banner,
+.container
+ {
+	padding: 30px 0;
+}
+.contact {
+	padding: 45px 0;
+}
+.banner img {
+	width: 55%;
+	}
+header,
+.banner,
+.container,
+.contact,
+.row {
+	max-width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	
+}
+footer {
+	max-width: 90%;
+	margin: 0 auto;
+}
+.row img{
+	width: 100%;
+}
+footer h2 {
+	display: block;
+}
+
+header ul {
+	width: 100%;
+	margin: 0 auto;
+	
+}
+header li {
+	font-size: 1.3em;
+	max-width: 93%;
+	background: white;
+	margin: 5px auto;
+	padding: 5px 10px;
+}
+.container {
+	background: white;
+}
+footer {
+	border-top: 1px solid rgba(0, 0, 0, .2);
+}
+footer h3 {
+	display: inline-block;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+a {
+	text-decoration: none;
+	color: rgba(0, 0, 0, 0.7);
+}
+a:hover {
+	color: rgba(0, 0, 0, 1);
+}
+
+/* Float Clearfix */
+.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+@media (min-width: 768px) {
+	
+	header li {
+    padding: 0 25px;
+		background: #fafafa;
+    display: inline;
+	}
+	.banner img {
+		float: right;
+		display: inline-block;
+		width: 50%;
+	}
+	.banner p {
+		text-align: left;
+		float: left;
+		display: inline-block;
+		width: 50%;
+	}
+	.banner p,
+	.banner img {
+		padding: 0 25px;
+	}
+	.container {
+		width: 90%;
+		overflow: auto;
+	}
+	.row {
+		width: 50%;
+		
+	}
+	.row img {
+		width: 85%;
+	}
+	.col-1 p,
+	.col-2 p {
+		padding: 0 10%;
+	}
+	.col-1 {
+		float: left;
+		display: inline-block;
+		margin: 0 auto;
+	}
+	.col-2 {
+		float: right;
+		display: inline-block;
+	}
+	.contact {
+		width: 50%;
+	}
+
+}
+@media (min-width: 1025px) {
+	.banner img {
+		width: 25%;
+	}
+	col-1 {
+		clear: left;
+	}
+	col-2 {
+		clear: right;
+	}
+	.row {
+		width: 33%;
+	}
+	.left-col {
+		float: left;
+	}
+	.mid-col {
+		display: inline-block;
+	}
+	.right-col {
+		float: right;
+	}
+	.right {
+		display: none;
+	}
+	.foot-nav {
+		display: inline-block;
+		float: right;
+	}
+	.foot-nav li {
+		display: inline;
+		padding: 0 15px;
+	}
+}
