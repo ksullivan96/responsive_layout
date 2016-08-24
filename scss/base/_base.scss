@@ -1,0 +1,31 @@
+/* Base Styles -------------------- */
+* {
+	box-sizing: border-box;
+	
+}
+body {
+	background: $grey;
+	color: rgba(0, 0, 0, 0.7);
+	font-family: 'Varela Round', sans-serif;
+}
+p {
+	padding: 0 10px;
+	color: $color-of-p;
+}
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+li {
+	@extend %centered;
+}
+
+a {
+	text-decoration: none;
+	color: $color-of-a;
+	
+		&:hover {
+			color: $color-of-ahover;
+		}	
+}
+

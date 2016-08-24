@@ -1,0 +1,23 @@
+header {
+	width: 100%;
+	max-width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+header ul {
+	width: 100%;
+	margin: 0 auto;
+	
+}
+header li {
+	max-width: 93%;
+	background: white;
+	margin: 5px auto;
+	padding: 5px 10px;
+	
+	@media #{$brk-narrow} {
+		padding: 0 25px;
+		background: #fafafa;
+   		display: inline;
+	}
+}

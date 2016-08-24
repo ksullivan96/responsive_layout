@@ -1,0 +1,21 @@
+// Descriptive color variables
+
+$white 	     : #fff;
+$grey        : #fafafa;
+$light-grey  : rgba(0, 0, 0, 0.6);
+$opaque-grey : rgba(0, 0, 0, 1);
+$med-grey  	 : rgba(0, 0, 0, 0.7);
+
+//Width
+$width     : 100%;
+
+$color-of-p  : $light-grey;
+$color-of-a  : $med-grey;
+$color-of-ahover : $opaque-grey;
+
+//Media Queries
+$brk-narrow : '(min-width: 768px)';
+$brk-wide   : '(min-width: 1024px)';
+
+
+

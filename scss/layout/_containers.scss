@@ -1,0 +1,76 @@
+.container
+ {
+	padding: 30px 0;
+	max-width: $width;
+	@extend %margin;
+	@extend %centered;
+	background: $white;
+	@extend %clearfix;
+	@media #{$brk-narrow} {
+		width: 90%;
+		overflow: auto;
+	}
+}
+.row {
+	padding: 20px 0;
+	width: 100%;
+	@extend %margin;
+	@extend %centered;
+	@media #{$brk-narrow} {
+		display: inline-block;
+		width: 45%;
+	}
+	@media #{$brk-wide} {
+		width: 31%;
+	}
+	
+	
+}
+.row img {
+	width: $width;
+	@media #{$brk-narrow} {
+		width: 85%;
+	}
+}
+.banner
+ {
+	@extend %clearfix;
+	padding: 30px 0;
+	max-width:  $width;
+	@extend %margin;
+	@extend %centered;
+}
+
+.banner img {
+	width: 55%;
+	@media #{$brk-narrow} {
+		float: right;
+		display: inline-block;
+		width: 50%;
+		padding: 0 25px;	
+	}
+	@media #{$brk-wide} {
+		width: 25%;
+	}
+	
+}
+.banner p {
+		@media #{$brk-narrow}  {
+		text-align: left;
+		float: left;
+		display: inline-block;
+		width: 50%;
+		padding: 0 25px;
+		}
+	}
+.contact {
+	padding: 45px 0;
+	max-width: $width;
+	@extend %margin;
+	@extend %centered;
+	@media #{$brk-narrow} {
+		width: 50%;
+	}
+}
+
+
